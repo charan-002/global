@@ -1,0 +1,4 @@
+create table enquiry(enqryid number primary key,firstname varchar2(20),lastname varchar2(20),contactno number,domain varchar2(5),city varchar2(20));
+
+
+create sequence enquiries minvalue 1001 maxvalue 9999 start with 1001 increment by 1 nocache;
